@@ -1,0 +1,34 @@
+/* frontend/src/components/Quiz.css */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quiz-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .leaderboard {
+    margin-top: 20px;
+  }
+  
+  .leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    margin: 5px 0;
+  }
+  
